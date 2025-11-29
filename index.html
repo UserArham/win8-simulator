@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Windows 8 Simulator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- BOOT SCREEN -->
+<div id="boot-screen">
+    <div class="boot-logo"></div>
+    <div class="boot-spinner"></div>
+</div>
+
+<!-- LOCK SCREEN -->
+<div id="lock-screen" class="hidden">
+    <div class="lock-time" id="time"></div>
+    <div class="lock-date" id="date"></div>
+    <div class="hint">Click or press a key to unlock</div>
+</div>
+
+<!-- START SCREEN -->
+<div id="start-screen" class="hidden">
+    <div id="tile-container"></div>
+</div>
+
+<!-- APP WINDOW -->
+<div id="app-window" class="hidden">
+    <iframe id="app-frame"></iframe>
+    <button id="close-app">×</button>
+</div>
+
+<script src="tiles.js"></script>
+<script src="apps.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
