@@ -1,0 +1,43 @@
+#taskbar {
+    position: fixed;
+    bottom: 0; left: 0;
+    height: 50px;
+    background: rgba(30,30,30,.9);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    z-index: 9999;
+}
+
+.task-icon {
+    width: 40px; height: 40px;
+    background: #3a3a3a;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.window {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    background: white;
+    border: 1px solid #555;
+    border-radius: 6px;
+}
+
+.titlebar {
+    background: #1e1e1e;
+    color: white;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    cursor: move;
+}
+
+.window.minimized {
+    display: none;
+}
