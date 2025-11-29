@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Segoe UI, sans-serif;
+    overflow: hidden;
+}
+
+/* BOOT SCREEN */
+#boot-screen {
+    position: absolute; inset: 0;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.boot-logo {
+    width: 150px; height: 150px;
+    background: #0078d7; border-radius: 10px;
+}
+.boot-spinner {
+    margin-top: 30px;
+    width: 40px; height: 40px;
+    border: 5px solid #555;
+    border-top-color: white;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+@keyframes spin { from {transform:rotate(0)} to {transform:rotate(360deg)} }
+
+/* LOCK SCREEN */
+#lock-screen {
+    position: absolute; inset: 0;
+    background: url('https://picsum.photos/1920/1080') center/cover;
+    color: white; text-align:center;
+    padding-top: 20%;
+}
+
+.lock-time { font-size: 120px; }
+.lock-date { font-size: 40px; }
+
+/* START SCREEN */
+#start-screen {
+    position: absolute; inset: 0;
+    background: #1b1b1b;
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+#tile-container {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+}
+
+/* Tiles */
+.tile {
+    width: 150px; height: 150px;
+    display: flex; justify-content:center; align-items:center;
+    color:white; font-size:24px;
+    cursor:pointer;
+    transition: transform .2s;
+}
+.tile:hover { transform: scale(1.1); }
+
+.live {
+    animation: livepulse 3s infinite alternate;
+}
+@keyframes livepulse {
+    from {opacity: .7;} to {opacity: 1;}
+}
+
+.blue { background:#2673ec; }
+.green { background:#00a300; }
+.red { background:#e51400; }
+.orange { background:#f39c12; }
+.purple { background:#8e44ad; }
+
+/* APP WINDOW */
+#app-window {
+    position: absolute; inset:0;
+    background: white;
+}
+#app-window.hidden { display:none; }
+
+#app-frame {
+    width: 100%; height: 100%; border: none;
+}
+
+#close-app {
+    position: absolute; top: 20px; right: 20px;
+    font-size: 40px;
+    border: none; background: rgba(0,0,0,.3);
+    color: white; cursor: pointer;
+}
+.hidden { display:none; }
