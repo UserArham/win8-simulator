@@ -1,0 +1,72 @@
+Themes.list = {
+
+    // ------------------- WINDOWS 8 -------------------
+    win8: {
+        css: {
+            accent: "#0078d7",
+            tile-radius: "2px",
+            tile-opacity: "1",
+            taskbar-color: "rgba(30,30,30,0.95)",
+            window-border: "#333",
+            window-radius: "0px",
+            font: "Segoe UI"
+        },
+        wallpaper: "https://images.unsplash.com/photo-1503264116251-35a269479413"
+    },
+
+    // ------------------- WINDOWS 7 -------------------
+    win7: {
+        css: {
+            accent: "#03a9f4",
+            tile-radius: "6px",
+            tile-opacity: "0.95",
+            taskbar-color: "rgba(40,40,40,0.9)",
+            window-border: "#1e90ff",
+            window-radius: "6px",
+            font: "Tahoma"
+        },
+        wallpaper: "https://wallpaperaccess.com/full/260455.jpg"
+    },
+
+    // ------------------- WINDOWS 10 -------------------
+    win10: {
+        css: {
+            accent: "#0078d4",
+            tile-radius: "4px",
+            tile-opacity: "1",
+            taskbar-color: "rgba(20,20,20,0.85)",
+            window-border: "#444",
+            window-radius: "4px",
+            font: "Segoe UI Variable"
+        },
+        wallpaper: "https://wallpaperaccess.com/full/1357.jpg"
+    },
+
+    // ------------------- WINDOWS 11 -------------------
+    win11: {
+        css: {
+            accent: "#5b82f7",
+            tile-radius: "12px",
+            tile-opacity: "0.9",
+            taskbar-color: "rgba(255,255,255,0.75)",
+            window-border: "#bbb",
+            window-radius: "12px",
+            font: "Segoe UI Rounded"
+        },
+        wallpaper: "https://wallpaperaccess.com/full/5680375.jpg"
+    },
+
+    // ------------------- CUSTOM -------------------
+    custom: {
+        css: {
+            accent: "#ff33cc",
+            tile-radius: "10px",
+            tile-opacity: ".8",
+            taskbar-color: "rgba(10,10,10,0.8)",
+            window-border: "#ff33cc",
+            window-radius: "8px",
+            font: "Segoe UI"
+        },
+        wallpaper: "https://picsum.photos/1920/1080"
+    }
+};
