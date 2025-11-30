@@ -1,0 +1,14 @@
+#taskbar {
+    background: var(--taskbar-color);
+}
+.tile {
+    border-radius: var(--tile-radius);
+    opacity: var(--tile-opacity);
+}
+.window {
+    border: 1px solid var(--window-border);
+    border-radius: var(--window-radius);
+}
+body {
+    font-family: var(--font);
+}
