@@ -1,0 +1,9 @@
+:root {
+    --accent: #0078d7;
+    --tile-radius: 4px;
+    --tile-opacity: 1;
+    --taskbar-color: rgba(30,30,30,0.9);
+    --window-border: #444;
+    --window-radius: 6px;
+    --font: "Segoe UI";
+}
