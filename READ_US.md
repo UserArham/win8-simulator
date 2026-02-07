@@ -1,5 +1,3 @@
-Windows 8 Simulator is a system emulator by NanoTech Sprunki Code.
-
 This may provide an clear thought for Windows as this may be an look series of the Windows Simulator.
 Download win8-simulator.zip if you want an clear view! You may view with 8K but download is 2110p.
 Apps and tiles provide an "SICK!!!" thought cause this was a copy of some Microsoft features.
